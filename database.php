@@ -1,7 +1,7 @@
 <?php
     $del_article_query="DELETE FROM xboard WHERE `articleid`=?";
     function get_connection(){
-        return mysqli_connect("localhost", "root", "thddudals7565#", "aegis");
+        return mysqli_connect("localhost", "root", "aee", "aeedr");
     }
     function get_del_article_query(){
         global $del_article_query;
